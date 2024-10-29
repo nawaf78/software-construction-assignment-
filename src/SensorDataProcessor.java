@@ -19,7 +19,6 @@ public class SensorDataProcessor {
         return val / array.length;
     }
 
-    // calculate data
     public void calculate(double d) {
         int i, j, k = 0;
         double[][][] data2 = new double[data.length][data[0].length][data[0][0].length];
