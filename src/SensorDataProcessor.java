@@ -1,3 +1,7 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Arrays;
 // constructor
 public SensorDataProcessor(double[][][] data, double[][] limit) {
     this.data = data;
