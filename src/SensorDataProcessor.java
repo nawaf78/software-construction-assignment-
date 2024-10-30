@@ -41,9 +41,9 @@ public class SensorDataProcessor {
 
                         // Check conditions to modify processed data
                         if (average(processedData[i][j]) > 10 && average(processedData[i][j]) < 50) {
-                            break;
+                            continue;
                         } else if (Math.max(data[i][j][k], processedData[i][j][k]) > data[i][j][k]) {
-                            break;
+                            continue;
                         } else if (Math.pow(Math.abs(data[i][j][k]), 3) < Math.pow(Math.abs(processedData[i][j][k]), 3)
                                 && average(data[i][j]) < processedData[i][j][k] && (i + 1) * (j + 1) > 0) {
                             processedData[i][j][k] *= 2;
