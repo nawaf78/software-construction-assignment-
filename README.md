@@ -1,6 +1,8 @@
  HEAD
 ## Getting Started
-nawaf fahad / 2141684 
+nawaf fahad / 2141684
+abdulelah barayan /2140209
+hamad taraq /2140263 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Folder Structure
