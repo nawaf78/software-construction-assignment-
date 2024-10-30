@@ -55,3 +55,4 @@ public void calculate(double d) {
         }
     }
 }
+
